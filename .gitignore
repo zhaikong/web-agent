@@ -5,8 +5,6 @@ __pycache__/
 *.pyc
 *.egg-info/
 .next/
-.env.local
-.env
 *.tsbuildinfo
 *.log
 next-env.d.ts
@@ -16,3 +14,4 @@ tmp/
 .DS_Store
 .playwright-mcp/
 .internal/cli/dist/
+config.bat

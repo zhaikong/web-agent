@@ -7,10 +7,10 @@
   },
   "scripts": {
     "predev": "node scripts/verify-agent-core.mjs",
-    "dev": "next dev",
+    "dev": "node init && next dev",
     "prebuild": "node scripts/verify-agent-core.mjs",
-    "build": "next build",
-    "start": "next start",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint"
   },
   "dependencies": {

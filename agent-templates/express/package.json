@@ -7,8 +7,8 @@
     "node": ">=20"
   },
   "scripts": {
-    "dev": "node --import tsx/esm --watch server.ts",
-    "start": "node --import tsx/esm server.ts",
+    "dev": "node init && node --import tsx/esm --watch server.ts",
+    "start": "node init && node --import tsx/esm server.ts",
     "doctor": "node --import tsx/esm scripts/doctor.ts",
     "example:basic": "node --import tsx/esm examples/1-basic.ts",
     "example:structured": "node --import tsx/esm examples/2-structured-output.ts",
